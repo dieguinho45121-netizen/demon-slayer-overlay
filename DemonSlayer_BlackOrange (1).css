@@ -1,18 +1,9 @@
-/*
-  Demon Slayer / Rengoku inspired color treatment for Gamepad Viewer.
-  Intended for the PS5 DualSense overlay. This is a visual filter, so
-  controller inputs/animations remain handled by Gamepad Viewer.
-*/
 html, body {
   background: transparent !important;
 }
 
-/*
-  Warm black-and-flame look.
-  Note: because the original skin is a single controller illustration,
-  a global filter also shifts the button-symbol colors.
-*/
-.controller.ds5,
-.controller.ds4 {
-  filter: grayscale(1) sepia(1) saturate(5) hue-rotate(350deg) contrast(1.12) brightness(0.82);
+.edit {
+  filter: grayscale(1) sepia(1) saturate(5)
+          hue-rotate(350deg) contrast(1.12)
+          brightness(0.82) !important;
 }
