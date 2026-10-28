@@ -3,7 +3,12 @@ html, body {
 }
 
 .edit {
-  filter: grayscale(1) sepia(1) saturate(5)
-          hue-rotate(350deg) contrast(1.12)
-          brightness(0.82) !important;
+  filter: brightness(0.55) sepia(0.4) saturate(2)
+          hue-rotate(345deg) !important;
+}
+
+.edit .button.pressed,
+.edit .trigger.pressed {
+  background-color: #ff6a00 !important;
+  border-color: #ff8c00 !important;
 }
